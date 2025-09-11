@@ -1,0 +1,51 @@
+{
+    "name": "Thomas Dye",
+    "subtitle": "All my apps in one place.",
+    "description": "Here you'll find all of my apps.",
+    "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
+    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+    "website": "https://thomasdye.net",
+    "patreonURL":"https://patreon.com/ThomasDye",
+    "tintColor": "#4185A9",
+    "featuredApps": [
+    ],
+    "apps": [
+        {
+            "name": "TDS Video",
+            "bundleIdentifier": "net.thomasdye.TDS-Video",
+            "marketplaceID": "6741498515",
+            "developerName": "Thomas Dye",
+            "subtitle": "View videos in your car",
+            "localizedDescription": "This app allows you to watch videos in your car on CarPlay and stream them. This app was created before apple asked me to remove it, thus everything in the app is now fixed, This app needs your location access to check if you are still, it only does this once and does not update when being used. After about 10 attempts you will see a popup that asked you to donate, you can just dismiss this unless you want to donate more. ",
+            "iconURL": "https://i.imgur.com/W9UrwHi.png",
+            "tintColor": "#8756e2",
+            "category": "utilities",
+            "screenshots": [],
+            "versions": [
+                {
+                    "downloadURL": "https://api.thomasdye.net/app/TDSVideo/ebc5da05-cf61-4f5c-a91d-98dce0a37dca/manifest.json",
+                    "size": 2900000,
+                    "version": "1.1",
+                    "buildVersion": "10",
+                    "date": "2025-06-04T17:00:00+01:00",
+                    "localizedDescription": null,
+                    "minOSVersion": "16.5"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.carplay-calling",
+                    "com.apple.developer.carplay-communication",
+                    "com.apple.developer.kernel.increased-memory-limit",
+                    "com.apple.developer.networking.networkextension",
+                    "com.apple.security.application-groups"
+                ],
+                "privacy": {
+                    "NSMotionUsageDescription": "To check you are not moving",
+                    "NSLocationWhenInUseUsageDescription": "To Check you are not driving"
+                }
+            },
+        }
+    ]
+}
