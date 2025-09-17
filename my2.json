@@ -1,0 +1,17 @@
+{
+  "name": "My Source",
+  "apps": [
+    {
+      "name": "TDS Video",
+      "bundleIdentifier": "net.thomasdye.TDS-Video",
+      "developerName": "Thomas Dye",
+      "versions": [
+        {
+          "version": "1.1",
+          "buildVersion": "10",
+          "downloadURL": "https://yourdomain.com/TDSVideo.ipa"
+        }
+      ]
+    }
+  ]
+}
