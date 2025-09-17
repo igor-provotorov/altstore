@@ -1,0 +1,12 @@
+{
+  "manifestSchemaVersion": "1.0",
+  "bundleId": "com.example.app",
+  "bundleVersion": "1",
+  "shortVersionString": "1.0",
+  "platforms": ["ios"],
+  "variants": [
+    {
+      "assetPath": "https://github.com/igor-provotorov/altstore/releases/download/v1.0/stocard.ipa"
+    }
+  ]
+}
