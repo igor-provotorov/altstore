@@ -1,17 +1,19 @@
 {
-  "name": "My Source",
+  "name": "My AltStore Source",
+  "identifier": "com.example.source",
   "apps": [
     {
-      "name": "TDS Video",
-      "bundleIdentifier": "net.thomasdye.TDS-Video",
-      "developerName": "Me",
-      "versions": [
-        {
-          "version": "1.0",
-          "buildVersion": "10",
-          "downloadURL": "https://drive.google.com/uc?export=download&id=1fC-InZDWhpHn6UjuKTq5oibK32HoQt0I"
-        }
-      ]
+      "name": "Example App",
+      "bundleIdentifier": "com.example.app",
+      "version": "1.0",
+      "versionDate": "2025-09-17",
+      "downloadURL": "https://drive.google.com/uc?export=download&id=1fC-InZDWhpHn6UjuKTq5oibK32HoQt0I",
+      "developerName": "Example Developer",
+      "iconURL": "https://example.com/icon.png",
+      "screenshotURLs": ["https://example.com/screenshot1.png"],
+      "description": "A cool app for testing.",
+      "size": 12345678,
+      "minOSVersion": "16.0"
     }
   ]
 }
