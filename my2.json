@@ -4,12 +4,12 @@
     {
       "name": "TDS Video",
       "bundleIdentifier": "net.thomasdye.TDS-Video",
-      "developerName": "Thomas Dye",
+      "developerName": "Me",
       "versions": [
         {
-          "version": "1.1",
+          "version": "1.0",
           "buildVersion": "10",
-          "downloadURL": "https://yourdomain.com/TDSVideo.ipa"
+          "downloadURL": "https://drive.google.com/uc?export=download&id=1fC-InZDWhpHn6UjuKTq5oibK32HoQt0I"
         }
       ]
     }
