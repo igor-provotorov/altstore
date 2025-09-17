@@ -14,7 +14,7 @@
         {
           "version": "1.0",
           "buildVersion": "1",
-          "versionDate": "2025-09-17",
+          "date": "2025-09-17T12:00:00+00:00",
           "downloadURL": "https://github.com/igor-provotorov/altstore/releases/download/v1.0/stocard.ipa",
           "size": 12345678,
           "minOSVersion": "16.0"
