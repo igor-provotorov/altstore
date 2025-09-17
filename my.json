@@ -1,5 +1,13 @@
 {
   "name": "My Source",
+  "subtitle": "All my apps in one place.",
+  "description": "Here you'll find all of my apps.",
+  "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
+  "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+  "website": "https://test.net",
+  "tintColor": "#4185A9",
+  "featuredApps": [
+  ],
   "apps": [
     {
       "name": "My App 1",
