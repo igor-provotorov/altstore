@@ -1,0 +1,17 @@
+{
+  "name": "My Source",
+  "apps": [
+    {
+      "name": "My App 1",
+      "bundleIdentifier": "com.example.myapp",
+      "developerName": "Me",
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "downloadURL": "https://yourdomain.com/MyApp.ipa"
+        }
+      ]
+    }
+  ]
+}
