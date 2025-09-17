@@ -6,6 +6,10 @@
       "name": "Example App",
       "bundleIdentifier": "com.example.app",
       "developerName": "Example Developer",
+      "localizedDescription": "This Super app.",
+      "iconURL": "https://example.com/icon.png",
+      "screenshotURLs": ["https://example.com/screenshot1.png"],
+      "description": "A cool app for testing.",
       "versions": [
         {
           "version": "1.0",
