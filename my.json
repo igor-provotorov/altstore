@@ -1,25 +1,50 @@
 {
-  "name": "My Source",
-  "subtitle": "All my apps in one place.",
-  "description": "Here you'll find all of my apps.",
-  "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
-  "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
-  "website": "https://test.net",
-  "tintColor": "#4185A9",
-  "featuredApps": [
-  ],
-  "apps": [
-    {
-      "name": "My App 1",
-      "bundleIdentifier": "com.example.myapp",
-      "developerName": "Me",
-      "versions": [
+    "name": "My Source",
+    "subtitle": "All my apps in one place.",
+    "description": "Here you'll find all of my apps.",
+    "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
+    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+    "website": "https://test.nest",
+    "tintColor": "#4185A9",
+    "featuredApps": [
+    ],
+    "apps": [
         {
-          "version": "1.0",
-          "buildVersion": "1",
-          "downloadURL": "https://drive.google.com/uc?export=download&id=1fC-InZDWhpHn6UjuKTq5oibK32HoQt0I",
+            "name": "Test app 1",
+            "bundleIdentifier": "com.example.myapp",
+            "marketplaceID": "6741498515",
+            "developerName": "me",
+            "subtitle": "Test",
+            "localizedDescription": "This app allows you to install something.",
+            "iconURL": "https://i.imgur.com/W9UrwHi.png",
+            "tintColor": "#8756e2",
+            "category": "utilities",
+            "screenshots": [],
+            "versions": [
+                {
+                    "downloadURL": "https://api.thomasdye.net/app/TDSVideo/ebc5da05-cf61-4f5c-a91d-98dce0a37dca/manifest.json",
+                    "size": 2900000,
+                    "version": "1.1",
+                    "buildVersion": "10",
+                    "date": "2025-06-04T17:00:00+01:00",
+                    "localizedDescription": null,
+                    "minOSVersion": "16.5"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.carplay-calling",
+                    "com.apple.developer.carplay-communication",
+                    "com.apple.developer.kernel.increased-memory-limit",
+                    "com.apple.developer.networking.networkextension",
+                    "com.apple.security.application-groups"
+                ],
+                "privacy": {
+                    "NSMotionUsageDescription": "To check you are not moving",
+                    "NSLocationWhenInUseUsageDescription": "To Check you are not driving"
+                }
+            },
         }
-      ]
-    }
-  ]
+    ]
 }
